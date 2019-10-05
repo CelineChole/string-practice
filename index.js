@@ -37,20 +37,29 @@ for(let j = str.length-1; j >= 0; j--){
     // "Index of h is 0"
     // "Index of i is 1"
 for(let a = 0; a < str.length; a++){
-    console.log("Index of ( " + str[a] + " ) is ( " + str.indexOf(str[a]) + " )");
+    console.log(`Index of (${str[a]}) is (${str.indexOf(str[a])})`);
 }
 // Re-do everything using another loop (`for` / `while`)
 let b = 0;
 while(b < str.length){
-    console.log("Index of ( " + str[b] + " ) is ( " + str.indexOf(str[b]) + " )")
+    console.log(`Index of (${str[b]}) is (${str.indexOf(str[b])})`);
     b+=1;
 }
 
 
-
-let newSentence = "Today we are Saturday"
+let string = "Today is Saturday";
+let newSentence = "";
 
 // 1. Return a new string without the vowels
+for (let c = 0; c < string.length; c++){
+    if(string[c].toLowerCase() === "a" || string[c].toLowerCase() === "e" || string[c].toLowerCase() === "i"|| string[c].toLowerCase() === "o" || string[c].toLowerCase() === "u"){
+        newSentence += "";
+    }
+    else {
+        newSentence += string[c];
+    }
+}
+console.log(newSentence);
 
  // input: "hello"
  // output: "hll"
