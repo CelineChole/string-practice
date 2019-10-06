@@ -19,7 +19,6 @@ let i = 0
     i += 2;
  }
 
-
 // 2. Print index of 'e'
 
 console.log(str.indexOf('e'))
