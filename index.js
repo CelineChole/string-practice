@@ -15,9 +15,10 @@ let str = "beautiful day";
     // "Index of h is 0"
     // "Index of i is 1"
 
+    
+// 6. Return a new string without the vowels (a, e, i, o, u)
+
 let newSentence = "Today we are Saturday"
-
-// 1. Return a new string without the vowels (a, e, i, o, u)
-
+    
 // input: "hello"
 // output: "hll"

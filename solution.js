@@ -46,7 +46,7 @@ for (let i = 0; i < str.length; i++) {
     console.log(`Index of ${str[i]} is ${i}`);
 }
 
-// 1. Return a new string without the vowels
+// 6. Return a new string without the vowels
 
 let newSentence = "Today we are Saturday"
 
